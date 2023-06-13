@@ -1,4 +1,4 @@
-# Mantine + Vite template
+# Actokedavra | Internship Week 1 - Warming Up
 
 ## Mind MAP
 

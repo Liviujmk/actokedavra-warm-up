@@ -9,8 +9,12 @@
   - Add `json-server` for ACTORS API
   - Add `redux` for state management
   - Add `redux-toolkit` for redux toolkit
+  
+- ### 2. Setting JSON Server
 
-- ### 2. Setting Project Structure
+  - Create `db.json` file with actors data
+
+- ### 3. Setting Project Structure
 
   - Create `common` folder for common data whithin app
     - `constants` folder for global app constants
@@ -25,3 +29,29 @@
     - `utils` folder for feature utils
     - `constants` folder for feature constants
     - `store` folder for feature store
+
+- ### 4. Building Actors Feature
+  
+  - `IActor` interface:
+    - `id` - string
+    - `name` - string
+    - `image` - string
+    - `likes` - number
+    - `occupation` - string
+    - `hobbies` - string[]
+    - `description` - string
+  - `ActorsList` component:
+    - Fetch actors data from API
+    - Display actors data as card grid based on `ActorCard` component
+    - Add `Add Actor` button
+  - `AddActor` or `EditActor` modal components based on `ActorForm` component and then relevant notifications
+  - create `actors` slice with `Actors` reducer
+    - `actors` reducer:
+      - `setActiveActor` action
+      - `setSelectedActors` action
+      - `setActorsSorting` action
+  - create `actorsApi` api with `createApi`
+
+- ### 5. Building App Pages
+
+  - Create `ActorsPage` component

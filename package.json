@@ -23,10 +23,12 @@
     "@mantine/modals": "^6.0.13",
     "@mantine/notifications": "^6.0.13",
     "@reduxjs/toolkit": "^1.9.5",
+    "@tabler/icons-react": "^2.22.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.1.0",
-    "react-router-dom": "^6.12.1"
+    "react-router-dom": "^6.12.1",
+    "vite-tsconfig-paths": "^4.2.0"
   },
   "devDependencies": {
     "@testing-library/dom": "^8.20.0",

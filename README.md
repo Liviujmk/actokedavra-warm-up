@@ -32,7 +32,7 @@
 
 - ### 4. Building Actors Feature
   
-  - `IActor` interface:
+  - `Actor` interface:
     - `id` - string
     - `name` - string
     - `image` - string

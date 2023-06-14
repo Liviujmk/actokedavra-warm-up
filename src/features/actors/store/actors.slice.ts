@@ -5,14 +5,16 @@ import type { PayloadAction } from '@reduxjs/toolkit';
 import { Actor } from '../types/actors.interface';
 
 interface ActorState {
-  setActiveActor: Actor | null
+  activeActor: Actor | null
   selectedActors: Actor[] | null;
+  selectMode: boolean;
   sorting: string;
 }
 
 const initialState: ActorState = {
-  setActiveActor: null,
+  activeActor: null,
   selectedActors: null,
+  selectMode: false,
   sorting: 'ascending',
 };
 
@@ -22,11 +24,15 @@ export const ActorSlice = createSlice({
 
   reducers: {
     setActiveActorAction: (state, action: PayloadAction<Actor | null>) => {
-      state.setActiveActor = action.payload;
+      state.activeActor = action.payload;
     },
 
     setSelectedActorsAction: (state, action: PayloadAction<Actor[] | null>) => {
       state.selectedActors = action.payload;
+    },
+
+    setSelectModeAction: (state, action: PayloadAction<boolean>) => {
+      state.selectMode = action.payload;
     },
 
     setActorsSortingAction: (state, action: PayloadAction<string>) => {
@@ -38,6 +44,7 @@ export const ActorSlice = createSlice({
 export const {
   setActiveActorAction,
   setSelectedActorsAction,
+  setSelectModeAction,
   setActorsSortingAction,
 } = ActorSlice.actions;
 export const actorReducer = ActorSlice.reducer;

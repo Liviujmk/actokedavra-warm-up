@@ -3,7 +3,7 @@ export interface Actor {
     image: string;
     name: string;
     occupation: string;
-    hobbies: string[];
+    hobbies: string;
     description: string;
     likes: number;
 }

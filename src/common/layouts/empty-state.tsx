@@ -1,6 +1,6 @@
 import { Card, Text, Button, Center, Avatar } from '@mantine/core';
 
-export const EmptyState = () => (
+export const EmptyState = ({ open } : { open: () => void }) => (
     <Center mt="8.9rem">
         <Card shadow="sm" padding="xl" radius="md" withBorder maw={400}>
             <Center>
@@ -11,7 +11,7 @@ export const EmptyState = () => (
                 There are no actors here. Consider adding one.
             </Text>
 
-            <Button variant="filled" color="primary-blue" fullWidth mt="xl" radius="md">
+            <Button variant="filled" color="primary-blue" fullWidth mt="xl" radius="md" onClick={open}>
                 Add new actor
             </Button>
         </Card>

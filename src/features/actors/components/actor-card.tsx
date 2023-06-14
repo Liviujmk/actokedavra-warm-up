@@ -48,7 +48,7 @@ export const ActorCard = ({ actor }: Props) => {
             </Group>
 
             <Group spacing={9} mt={12}>
-                {actor.hobbies.map((hobby) => (
+                {actor.hobbies.split(',').map((hobby) => (
                     <Badge color="indigo" radius="sm">{hobby}</Badge>
                 ))}
             </Group>

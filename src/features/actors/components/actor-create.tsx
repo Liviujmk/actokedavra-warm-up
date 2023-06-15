@@ -2,55 +2,52 @@ import { useEffect } from 'react';
 import { useForm, zodResolver } from '@mantine/form';
 import { notifications } from '@mantine/notifications';
 import { useCreateActorMutation } from '../api/actors.api';
-import { ACTORS_VALIDATION_SCHEMA } from '../constants/actors.const';
+import { ACTORS_VALIDATION_SCHEMA, initialValues } from '../constants/actors.const';
 import { ActorForm } from './actor-form';
+import { FormValues } from '../types/actors.interface';
 
-interface FormValues {
-    image: string;
-    name: string;
-    occupation: string;
-    hobbies: any;
-    description: string;
-    likes: number;
+interface Props {
+  opened: boolean;
+  close: () => void;
 }
 
-const initialValues: FormValues = {
-    image: 'http://www.gstatic.com/tv/thumb/persons/673/673_v9_ba.jpg',
-    name: '',
-    occupation: '',
-    hobbies: '',
-    description: '',
-    likes: 52,
-};
+export const ActorCreate = ({ opened, close }: Props) => {
+  const [actorMutation, { isSuccess }] = useCreateActorMutation();
 
-export const ActorCreate = ({ opened, close }: any) => {
-    const [actorMutation, { isSuccess }] = useCreateActorMutation();
+  // initialize form with useForm hook
+  const form = useForm({
+    validate: zodResolver(ACTORS_VALIDATION_SCHEMA),
+    initialValues,
+  });
 
-    const form = useForm({
-        validate: zodResolver(ACTORS_VALIDATION_SCHEMA),
-        initialValues,
-    });
+  // defaultClose function is used to reset form and close modal
+  const defaultClose = () => {
+    form.reset();
+    close();
+  };
 
-    const defaultClose = () => {
-        form.reset();
-        close();
-    };
-
-    function createActor(values: FormValues) {
-        actorMutation(values);
-        defaultClose();
+  // createActor function is used to create new actor
+  function createActor(values: FormValues) {
+    actorMutation(values);
+    defaultClose();
+  }
+  // useEffect is used to show notification when actor is created successfully
+  useEffect(() => {
+    if (isSuccess) {
+      notifications.show({
+        title: 'Actor Action',
+        message: 'Actor created successfully',
+      });
     }
+  }, [isSuccess]);
 
-    useEffect(() => {
-        if (isSuccess) {
-          notifications.show({
-            title: 'Actor Action',
-            message: 'Actor created successfully',
-          });
-        }
-      }, [isSuccess]);
-
-    return (
-        <ActorForm opened={opened} defaultClose={defaultClose} localOnSubmit={createActor} actionTitle="Add new actor" form={form} />
-    );
+  return (
+    <ActorForm
+      opened={opened}
+      defaultClose={defaultClose}
+      localOnSubmit={createActor}
+      actionTitle="Add new actor"
+      form={form}
+    />
+  );
 };

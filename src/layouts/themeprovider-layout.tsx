@@ -3,7 +3,18 @@ import { Notifications } from '@mantine/notifications';
 
 export const theme: MantineThemeOverride = {
   colors: {
-    'primary-blue': ['#6308F7', '#6308F7', '#6308F7', '#6308F7', '#6308F7', '#6308F7', '#6308F7', '#6308F7', '#6308F7', '#6308F7'],
+    'primary-blue': [
+      '#6308F7',
+      '#6308F7',
+      '#6308F7',
+      '#6308F7',
+      '#6308F7',
+      '#6308F7',
+      '#6308F7',
+      '#6308F7',
+      '#6308F7',
+      '#6308F7',
+    ],
   },
   colorScheme: 'light',
   fontFamily: 'Poppins, sans-serif',

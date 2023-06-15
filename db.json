@@ -1,22 +1,67 @@
 {
   "actors": [
-    {
-      "image": "http://www.gstatic.com/tv/thumb/persons/673/673_v9_ba.jpg",
-      "name": "Asadasd",
-      "occupation": "asdasd & asndasd",
-      "hobbies": "asdasdasd,asdasda,sdasdasd,asdasdd",
-      "description": "asdasdasdsadasdasdasdsadasdasdasdsadasdasdasdsadasdasda sdsadasdasdasdsadasdasdasdsadasdasdasdsadasdasdasdsadasdasdas dsadasdasdasdsadasdasdasdsadasdasdasdsadasdasdasdsadasdasdasdsadasdasdasdsadasdasdasdsadasdasdasdsad",
-      "likes": 52,
-      "id": 1
-    },
-    {
-      "image": "http://www.gstatic.com/tv/thumb/persons/673/673_v9_ba.jpg",
-      "name": "Supoer",
-      "occupation": "asdasd",
-      "hobbies": "asdasd,asdas,asdasd,23",
-      "description": "asdasdasd asdasdasda asdasdasdasdasd asdasdasda asdasdasdasdasd asdasdasda asdasdasdasdasd asdasdasda asdasdasdasdasd asdasdasda asdasdasdasdasd asdasdasda asdasdasdasdasd asdasdasda asdasd",
-      "likes": 52,
-      "id": 2
-    }
+      {
+          "id": 1,
+          "image": "http://www.gstatic.com/tv/thumb/persons/673/673_v9_ba.jpg",
+          "name": "Leondardo DiCaprio",
+          "occupation": "Actor & Writer",
+          "likes": 47,
+          "hobbies": "Dancing,Modelling,Travelling,Bloging",
+          "description": "Leonardo Wilhelm DiCaprio is an American actor, film producer, and environmental activist. DiCaprio began his career by appearing in television commercials in the late 1980s."
+      },
+      {
+          "id": 2,
+          "image": "http://www.gstatic.com/tv/thumb/persons/673/673_v9_ba.jpg",
+          "name": "Angelina Jolie",
+          "occupation": "Actress & Producer",
+          "likes": 56,
+          "hobbies": "Dancing,Modelling,Travelling,Bloging",
+          "description": "Leonardo Wilhelm DiCaprio is an American actor, film producer, and environmental activist. DiCaprio began his career by appearing in television commercials in the late 1980s."
+      },
+      {
+          "id": 3,
+          "image": "http://www.gstatic.com/tv/thumb/persons/673/673_v9_ba.jpg",
+          "name": "Jennifer Aniton",
+          "occupation": "Actress & Director",
+          "likes": 46,
+          "hobbies": "Dancing,Modelling,Travelling,Bloging",
+          "description": "Leonardo Wilhelm DiCaprio is an American actor, film producer, and environmental activist. DiCaprio began his career by appearing in television commercials in the late 1980s."
+      },
+      {
+          "id": 4,
+          "image": "http://www.gstatic.com/tv/thumb/persons/673/673_v9_ba.jpg",
+          "name": "Dwayne Johnson",
+          "occupation": "Actor & Producer",
+          "likes": 32,
+          "hobbies": "Dancing,Modelling,Travelling,Bloging",
+          "description": "Leonardo Wilhelm DiCaprio is an American actor, film producer, and environmental activist. DiCaprio began his career by appearing in television commercials in the late 1980s."
+      },
+      {
+          "id": 5,
+          "image": "http://www.gstatic.com/tv/thumb/persons/673/673_v9_ba.jpg",
+          "name": "Morgan Freeman",
+          "occupation": "Actor & Producer",
+          "likes": 10,
+          "hobbies": "Dancing,Modelling,Travelling,Bloging",
+          "description": "Leonardo Wilhelm DiCaprio is an American actor, film producer, and environmental activist. DiCaprio began his career by appearing in television commercials in the late 1980s."
+      },
+      {
+          "id": 6,
+          "image": "http://www.gstatic.com/tv/thumb/persons/673/673_v9_ba.jpg",
+          "name": "Bradd Pitt",
+          "occupation": "Actor & Producer",
+          "likes": 47,
+          "hobbies": "Dancing,Modelling,Travelling,Bloging",
+          "description": "Leonardo Wilhelm DiCaprio is an American actor, film producer, and environmental activist. DiCaprio began his career by appearing in television commercials in the late 1980s."
+      },
+      {
+          "id": 7,
+          "image": "http://www.gstatic.com/tv/thumb/persons/673/673_v9_ba.jpg",
+          "name": "Zendaya",
+          "occupation": "Actress & Director",
+          "likes": 65,
+          "hobbies": "Dancing,Modelling,Travelling,Bloging",
+          "description": "Leonardo Wilhelm DiCaprio is an American actor, film producer, and environmental activist. DiCaprio began his career by appearing in television commercials in the late 1980s."
+      }
   ]
 }

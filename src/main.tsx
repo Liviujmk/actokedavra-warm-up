@@ -5,11 +5,11 @@ import { store } from './common/store/store';
 import App from './App';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
-    <Provider store={store}>
-        <BrowserRouter>
-            <Routes>
-                <Route path="/*" element={<App />} />
-            </Routes>
-        </BrowserRouter>
-    </Provider>
+  <Provider store={store}>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/*" element={<App />} />
+      </Routes>
+    </BrowserRouter>
+  </Provider>
 );

@@ -38,7 +38,7 @@
     - `image` - string
     - `likes` - number
     - `occupation` - string
-    - `hobbies` - string[]
+    - `hobbies` - string
     - `description` - string
   - `ActorsList` component:
     - Fetch actors data from API
@@ -47,11 +47,18 @@
   - `AddActor` or `EditActor` modal components based on `ActorForm` component and then relevant notifications
   - create `actors` slice with `Actors` reducer
     - `actors` reducer:
+      - `clear state` action
       - `setActiveActor` action
-      - `setSelectedActors` action
-      - `setActorsSorting` action
+      - `set/remove SelectedActors` action
+      - `deleteAll` action
+      - `sorting` action
   - create `actorsApi` api with `createApi`
 
-- ### 5. Building App Pages
+- ### 6. Building App Functionality
+
+  - `Sorting/Ordering` functionality
+  - `Bulk Delete` functionality
+
+- ### 7. Building App Pages
 
   - Create `ActorsPage` component

@@ -6,12 +6,7 @@
             "name": "Leondardo DiCaprio",
             "occupation": "Actor & Writer",
             "likes": 47,
-            "hobbies": [
-                "Dancing",
-                "Modelling",
-                "Travelling",
-                "Bloging"
-            ],
+            "hobbies": "Dancing,Modelling,Travelling,Bloging",
             "description": "Leonardo Wilhelm DiCaprio is an American actor, film producer, and environmental activist. DiCaprio began his career by appearing in television commercials in the late 1980s."
         },
         {
@@ -20,12 +15,7 @@
             "name": "Angelina Jolie",
             "occupation": "Actress & Producer",
             "likes": 56,
-            "hobbies": [
-                "Dancing",
-                "Modelling",
-                "Travelling",
-                "Bloging"
-            ],
+            "hobbies": "Dancing,Modelling,Travelling,Bloging",
             "description": "Leonardo Wilhelm DiCaprio is an American actor, film producer, and environmental activist. DiCaprio began his career by appearing in television commercials in the late 1980s."
         },
         {
@@ -34,12 +24,7 @@
             "name": "Jennifer Aniton",
             "occupation": "Actress & Director",
             "likes": 46,
-            "hobbies": [
-                "Dancing",
-                "Modelling",
-                "Travelling",
-                "Bloging"
-            ],
+            "hobbies": "Dancing,Modelling,Travelling,Bloging",
             "description": "Leonardo Wilhelm DiCaprio is an American actor, film producer, and environmental activist. DiCaprio began his career by appearing in television commercials in the late 1980s."
         },
         {
@@ -48,12 +33,7 @@
             "name": "Dwayne Johnson",
             "occupation": "Actor & Producer",
             "likes": 32,
-            "hobbies": [
-                "Dancing",
-                "Modelling",
-                "Travelling",
-                "Bloging"
-            ],
+            "hobbies": "Dancing,Modelling,Travelling,Bloging",
             "description": "Leonardo Wilhelm DiCaprio is an American actor, film producer, and environmental activist. DiCaprio began his career by appearing in television commercials in the late 1980s."
         },
         {
@@ -62,12 +42,7 @@
             "name": "Morgan Freeman",
             "occupation": "Actor & Producer",
             "likes": 10,
-            "hobbies": [
-                "Dancing",
-                "Modelling",
-                "Travelling",
-                "Bloging"
-            ],
+            "hobbies": "Dancing,Modelling,Travelling,Bloging",
             "description": "Leonardo Wilhelm DiCaprio is an American actor, film producer, and environmental activist. DiCaprio began his career by appearing in television commercials in the late 1980s."
         },
         {
@@ -76,12 +51,7 @@
             "name": "Bradd Pitt",
             "occupation": "Actor & Producer",
             "likes": 47,
-            "hobbies": [
-                "Dancing",
-                "Modelling",
-                "Travelling",
-                "Bloging"
-            ],
+            "hobbies": "Dancing,Modelling,Travelling,Bloging",
             "description": "Leonardo Wilhelm DiCaprio is an American actor, film producer, and environmental activist. DiCaprio began his career by appearing in television commercials in the late 1980s."
         },
         {
@@ -90,12 +60,7 @@
             "name": "Zendaya",
             "occupation": "Actress & Director",
             "likes": 65,
-            "hobbies": [
-                "Dancing",
-                "Modelling",
-                "Travelling",
-                "Bloging"
-            ],
+            "hobbies": "Dancing,Modelling,Travelling,Bloging",
             "description": "Leonardo Wilhelm DiCaprio is an American actor, film producer, and environmental activist. DiCaprio began his career by appearing in television commercials in the late 1980s."
         }
     ]
